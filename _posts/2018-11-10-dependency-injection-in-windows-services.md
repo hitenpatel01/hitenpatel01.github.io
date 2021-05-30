@@ -3,7 +3,7 @@ title:  "Dependency Injection in Windows Services"
 layout: post
 ---
 
-Dependeny Injection beyond ASP.NET Web Application like Windows Services or even Console Applications is a good thing and can be easily implemented.
+Dependeny Injection is a useful technique to achieve loose coupling, adhere open-close principle and better testability and hence it is available by default in an ASP.NET Application. It can be implemented in other applications like Windows Service (or console application) as well to get these benefits. In this article we'll see basic setup of a Windows Service via Top Shelf and a technique to dispose dependencies properly, especially useful when a Windows Service performs repetitive operations like subscribing to a queue and processing messages.
 
 ## Heading Two (h2)
 
